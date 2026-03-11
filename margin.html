@@ -1,0 +1,1195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Do+Hyeon&family=Dongle&family=Gowun+Batang&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <style>
+        .quicksand {
+            font-family: "Quicksand", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 345;
+            font-style: normal;
+        }
+
+        .hahmlet {
+            font-family: "Hahmlet", serif;
+            font-optical-sizing: auto;
+            
+        }
+
+
+        .do-hyeon-regular {
+            font-family: "Do Hyeon", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+        .black-han-sans-regular {
+            font-family: "Black Han Sans", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            
+        }
+        .space{
+            white-space: pre-wrap;
+        }
+        .background{
+            width: 1640px;
+            height : 880px;
+            background-color: rgb(221,234,243);
+            position:relative;
+        }
+        .background2{
+            width: 1640px;
+            height : 880px;
+            top:880px;
+            background-color: rgb(221,234,243);
+            position:absolute;
+        }
+        .background3{
+            width: 1640px;
+            height : 880px;
+            top:1760px;
+            background-color: rgb(221,234,243);
+            position:absolute;
+        }
+        .background4{
+            width: 1640px;
+            height : 880px;
+            top:2640px;
+            background-color: rgb(221,234,243);
+            position:absolute;
+        }
+        .background5{
+            width: 1640px;
+            height : 880px;
+            top:3520px;
+            background-color: rgb(221,234,243);
+            position:absolute;
+        }
+        .background6{
+            width: 1640px;
+            height : 880px;
+            top:4400px;
+            background-color: rgb(221,234,243);
+            position:absolute;
+        }
+        .background7{
+            width: 1640px;
+            height : 880px;
+            top:5280px;
+            background-color: rgb(221,234,243);
+            position:absolute;
+        }
+        .background8{
+            width: 1640px;
+            height : 880px;
+            top:6160px;
+            background-color: rgb(221,234,243);
+            position:absolute;
+        }
+        .background9{
+            width: 1640px;
+            height : 880px;
+            top:7040px;
+            background-color: rgb(221,234,243);
+            position:absolute;
+        }
+
+        .middle{
+            z-index: 3;
+            width: 1530px;
+            height : 760px;
+            background-color: white;
+            position: absolute;
+            top: 40px;
+            left: 50px;
+            border-radius: 40px;
+            border: 3px solid black; 
+        }
+        .page2{
+            top:920px;    
+        }
+        .middle_s{
+            z-index: 2;
+            width: 1500px;
+            height : 760px;
+            background-color: white;
+            position: absolute;
+            top: 60px;
+            left: 65px;
+            border-radius: 40px;
+            border: 3px solid black;
+        }
+        .page2_ms{
+            top:940px
+        }
+        .middle_t{
+            z-index: 1;
+            width: 1470px;
+            height : 760px;
+            background-color: white;
+            position: absolute;
+            top: 80px;
+            left: 80px;
+            border-radius: 40px;
+            border: 3px solid black;
+        }
+        .page2_mt{
+            top:960px
+        }
+        .chrkseks{
+            z-index: 4;
+            
+            font-size: 60px;
+            width: 1640px;
+            height : 880px;
+            text-align: center;
+            top: 180px;
+            position: absolute;
+        }
+        .wkrlthro{
+            z-index: 4;
+            
+            font-size: 260px;
+            width: 1640px;
+            height : 880px;
+            text-align: center;
+            top: 60px;
+            position: absolute;
+        }
+        .main_one {
+            z-index: 4;
+            width: 160px;
+            height: 80px;
+            border: 3px solid black;
+            background-color: rgb(221,234,243);
+            border-top: none;
+            top: 40px;
+            left: 732px;
+            border-radius: 0 0 500px 500px;
+            position: absolute;
+        }
+        .main_one2{
+            top:920px;
+        }
+        .down_b{
+            z-index: 4;
+            width: 910px;
+            height : 74px;
+            background-color: rgb(221,234,243);
+            position: absolute;
+            top: 630px;
+            left: 365px;
+            border-radius: 40px;
+            border: 3px solid black;
+        }
+
+        .down_b02{
+            width: 400px ;
+            top: 1540px ;
+            left: 900px;
+        }
+        .down_b022{
+            width: 400px ;
+            top: 1430px ;
+            left: 900px;
+        }
+        .down_b023{
+            width: 400px ;
+            top: 1320px ;
+            left: 900px;
+        }
+        .down_b03{
+            width:500px;
+            top: 460px;
+            left:185px;
+        }
+        .down_up_l{
+            z-index: 4;
+            width: 180px;
+            height : 40px;
+            background-color: rgb(255, 255, 255);
+            position: absolute;
+            top: 100px;
+            left: 115px;
+            border-radius: 40px;
+            border: 2px solid black;
+        }
+        
+        .main_l{
+            z-index: 4;
+            font-size: 18px;
+            left: 32px;
+            top: -13px;
+            position: absolute;
+        }
+        
+        .down_up_r{
+            z-index: 4;
+            width: 180px;
+            height : 40px;
+            background-color: rgb(255, 255, 255);
+            position: absolute;
+            top: 100px;
+            left: 1340px;
+            border-radius: 40px;
+            border: 2px solid black;
+        }
+        .down_up_r2{
+            top : 980px;
+        }
+
+
+
+
+        .main_r{
+            z-index: 4;
+            font-size: 18px;
+            top: -13px;
+            left:42px;
+            position: absolute;
+        }
+        .circle {
+            z-index: 5;
+            width: 50px;
+            height: 50px;
+            border: 3px solid black;
+            border-radius: 50%;
+            top: 642px;
+            left: 380px;
+            background-color: white;
+            position: absolute;
+        }
+        .circle_02{
+            top: 10px;
+            left: 10px;
+        }
+        .circle_03{
+            width: 50px;
+            height: 50px;
+            top: 10px;
+            left: 10px;
+        }
+        .eye {
+            z-index: 6;
+            font-size: 30px;
+            left: 13px;
+            top: -40px;
+            position: absolute;
+        }
+        .eye_3{
+            top: -60;
+            left: 13;
+        }
+        .mouth {
+            z-index: 6;
+            width: 14.95px;
+            height: 5px;
+            border: 3px solid black;
+            border-top: none;
+            top: 30px;
+            left:14px;
+            border-radius: 0 0 100px 100px;
+            position: absolute;
+        }
+        .mouth03{
+            top:15px;
+            left: 14.5px;
+        }
+        .myname_01{
+            z-index: 4;
+            font-size: 28px;
+            top: -7px;
+            left:90px;
+            position: absolute;
+        }
+
+        .m1{
+            z-index: 4;
+            width: 18px;
+            height : 10px;
+            background-color: rgb(81,80,81);
+            position: absolute;
+            top: 55px;
+            left: 180px;
+            border-radius: 5px;
+            border: 3px solid rgb(81,80,81);
+
+            box-shadow: 
+            40px 0 rgb(81,80,81),
+            80px 0 rgb(81,80,81),
+            120px 0 rgb(81,80,81),
+            160px 0 rgb(81,80,81),
+            200px 0 rgb(81,80,81),
+            240px 0 rgb(81,80,81),
+            280px 0 rgb(81,80,81),
+            320px 0 rgb(81,80,81),
+            360px 0 rgb(81,80,81),
+            400px 0 rgb(81,80,81),
+            440px 0 rgb(81,80,81);
+        }
+        .m1_1{
+            top:935px;
+        }
+        .m2{
+            z-index: 4;
+            width: 18px;
+            height : 10px;
+            background-color: rgb(81,80,81);
+            position: absolute;
+            top: 55px;
+            left: 985px;
+            border-radius: 5px;
+            border: 3px solid rgb(81,80,81);
+
+            box-shadow: 
+            40px 0 rgb(81,80,81),
+            80px 0 rgb(81,80,81),
+            120px 0 rgb(81,80,81),
+            160px 0 rgb(81,80,81),
+            200px 0 rgb(81,80,81),
+            240px 0 rgb(81,80,81),
+            280px 0 rgb(81,80,81),
+            320px 0 rgb(81,80,81),
+            360px 0 rgb(81,80,81),
+            400px 0 rgb(81,80,81),
+            440px 0 rgb(81,80,81);
+        }
+        .m2_1{
+            top:935px;
+        }
+        .spring{
+            display: flex;
+            gap: 5px; 
+            z-index: 4;
+            top: 20px;
+            left: 988px;
+            position: absolute;
+            
+        }
+
+
+        .bar{
+            width: 6px;
+            height: 40px;
+            background: rgb(124, 124, 124);
+            border-radius: 10px; 
+            
+            box-shadow: 
+            40px 0 rgb(124, 124, 124),
+            80px 0 rgb(124, 124, 124),
+            120px 0 rgb(124, 124, 124),
+            160px 0 rgb(124, 124, 124),
+            200px 0  rgb(124, 124, 124),
+            240px 0 rgb(124, 124, 124),
+            280px 0 rgb(124, 124, 124),
+            320px 0 rgb(124, 124, 124),
+            360px 0 rgb(124, 124, 124),
+            400px 0 rgb(124, 124, 124),
+            440px 0 rgb(124, 124, 124);
+        }
+        
+
+        .spring2{
+            display: flex;
+            gap: 5px; 
+            z-index: 4;
+            top: 20px;
+            left: 182px;
+            position: absolute;
+            
+        }
+        .spring_2{
+            top : 900px;
+        }
+        
+        .cont{
+            z-index: 4;
+            font-size: 105px;
+            top: 1030px;
+            left:350px;
+            
+            position: absolute;
+        }
+        .line_02{
+            z-index: 4;
+            width: 1000px;
+            height : 3px;
+            background-color: rgb(0, 0, 0);
+            position: absolute;
+            top: 1280px;
+            left: 322px;
+            border-radius: 5px;
+        }
+        
+        .num_02 {
+            z-index: 6;
+            font-size: 28px;
+            left: 19px;
+            top: -20px;
+            position: absolute;
+        }
+        .nu_02 {
+            z-index: 6;
+            font-size: 26px;
+            left: 75px;
+            top: -3px;
+            position: absolute;
+        }
+        .line_03{
+            z-index: 4;
+            width: 1px;
+            height : 756px;
+            background-color: rgb(0, 0, 0);
+            position: absolute;
+            top: 43px;
+            left: 820px;
+            
+        }
+        .l03_r{
+            width: 585px;
+            height: 2px;
+            top: 260px;
+            left: 925px;
+
+            box-shadow: 
+            0 180px,
+            0 355px ;            
+        }
+        .m3{
+            z-index: 4;
+            width: 10px;
+            height : 18px;
+            background-color: rgb(81,80,81);
+            position: absolute;
+            top: 65px;
+            left: 840px;
+            border-radius: 5px;
+            border: 3px solid rgb(81,80,81);
+
+            box-shadow: 
+            0 40px  rgb(81,80,81),
+            0 80px  rgb(81,80,81),
+            0 120px  rgb(81,80,81),
+            0 160px  rgb(81,80,81),
+            0 200px  rgb(81,80,81),
+            0 240px  rgb(81,80,81),
+            0 280px  rgb(81,80,81),
+            0 320px  rgb(81,80,81),
+            0 360px  rgb(81,80,81),
+            0 400px  rgb(81,80,81),
+            0 440px  rgb(81,80,81),
+            0 480px  rgb(81,80,81),
+            0 520px  rgb(81,80,81),
+            0 560px  rgb(81,80,81),
+            0 600px  rgb(81,80,81),
+            0 640px  rgb(81,80,81),
+            0 680px  rgb(81,80,81);
+        }
+
+        .spring03{
+
+            gap:6px;
+            z-index: 4;
+            top: 70px;
+            left: 800px;
+            position: absolute;
+            
+        }
+
+        .bar2{
+            width: 45px;
+            height: 6px;
+            background: rgb(124, 124, 124);
+            border-radius: 10px; 
+            
+            box-shadow: 
+            0 40px  rgb(81,80,81),
+            0 80px  rgb(81,80,81),
+            0 120px  rgb(81,80,81),
+            0 160px  rgb(81,80,81),
+            0 200px  rgb(81,80,81),
+            0 240px  rgb(81,80,81),
+            0 280px  rgb(81,80,81),
+            0 320px  rgb(81,80,81),
+            0 360px  rgb(81,80,81),
+            0 400px  rgb(81,80,81),
+            0 440px  rgb(81,80,81),
+            0 480px  rgb(81,80,81),
+            0 520px  rgb(81,80,81),
+            0 560px  rgb(81,80,81),
+            0 600px  rgb(81,80,81),
+            0 640px  rgb(81,80,81),
+            0 680px  rgb(81,80,81);
+        }
+        .bar2_location{
+            top:80px;
+        }
+
+        .whoiam{
+            z-index: 5;
+            font-size: 90px;
+            top: 200px;
+            left: 145px;
+            position: absolute;
+        }
+
+        .p3_1{
+            z-index: 5;
+            font-size: 24px;
+            top: 220px;
+            left: 815px;
+            position: absolute;
+        }
+        .p3_2{
+            z-index: 5;
+            font-size: 20px;
+            top: 223px;
+            left: 1055px;
+            position: absolute;
+        }
+        .p3_22{
+            top: 258px;
+        }
+        .p3_23{
+            top: 293px;
+        }
+        .p3_24{
+            top: 328px;
+        }
+        .p3_31{
+            top: 402px;
+        }
+        .p3_32{
+            top: 435px;
+        }
+        .p3_33{
+            top: 468px;
+        }
+        .p3_41{
+            top: 582px;
+        }
+        .p3_42{
+            top: 617px;
+        }
+        .p3_43{
+            top: 652px;
+        }
+
+        .main04{
+            z-index: 5;
+            top: 100px;;
+            position: absolute;
+            font-size: 95px;
+            left: 445px;
+        }
+
+        .bar_04{
+            top: 370px;
+            left: 165px;
+            width: 330px;
+        }
+        .bar_042{
+            top: 470px;
+        }
+        .bar_043{
+            top: 570px;
+        }
+        .bar_044{
+            top: 670px;
+        }
+        .bar_04_text{
+            top: -15px;
+            left: 90px;
+            font-size: 25px;
+            position: absolute;
+        }  
+        .bar_04_text1{
+            top: -2px;
+            left: 90px;
+            font-size: 25px;
+            position: absolute;
+        }
+        .circle_04_text{
+            top: -19px;
+            left: 18px;
+            font-size: 25px;
+            position: absolute;
+        }
+        .p4_b1{
+            top: 370px;
+            height: 2px;
+            width: 960px;
+            left: 485px;
+
+            box-shadow: 
+            0 102px,
+            0 202px,
+            0 302px
+            ;
+        }
+        .p4_1{
+            
+            z-index: 5;
+            font-size: 22.5px;
+            top: 353px;
+            left: 525px;
+            position: absolute;
+        }
+        .p4_2{
+            top: 452px;
+        }
+        .p4_3{
+            top: 560px;
+        }
+        .p4_4{
+            top: 660px;
+        }
+        .p4_2_1{
+            top: 458px;
+            left: 840px;
+        }
+        .p4_2_2{
+            top: 551px;
+            left: 840px;
+        }
+        .arrow {
+        z-index: 5;
+        width: 17px;
+        height: 17px;
+        border-right: 6px solid black;
+        border-top: 6px solid black;
+        transform: rotate(45deg);
+        top: 390px;
+        left : 1410px;
+        position: absolute;
+        border-radius: 4px;
+        }
+        .arrow2{
+            top: 490px;
+        }
+        .arrow3{
+            top: 590px;
+        }
+        .arrow4{
+            top: 690px;
+        }
+        .arrow_{
+            z-index: 5;
+            width: 22px;
+            height : 2px;
+            background-color: rgb(0, 0, 0);
+            position: absolute;
+            top: 398px;
+            left : 1403px;
+            border-radius: 10px;
+            border: 3px solid black; 
+
+            box-shadow: 0 100px,
+            0 200px,
+            0 300px;
+        }
+
+        .img1{
+            z-index: 4;
+            width: 800px;
+            height: 600px;
+            top: 21%;
+            left: 16.5%;
+            position : absolute;
+        }
+        .p2_img1{
+            z-index: 4;
+            width: 800px;
+            height: 600px;
+            top: 21%;
+            left: 14%;
+            position : absolute;
+
+        }
+        .p2_img2{
+            z-index: 4;
+            width: 800px;
+            height: 600px;
+            top: 21%;
+            left: 850px;
+            position : absolute;
+            
+        }
+        .p2_img3{
+            z-index: 4;
+            width: 800px;
+            height: 600px;
+            top: 450px;
+            left: 14%;
+            position : absolute;
+            
+        }
+        .p2_img4{
+            z-index: 4;
+            width: 800px;
+            height: 600px;
+            top: 450px;
+            left: 850px;
+            position : absolute;
+        }
+        .p3_img1{
+            z-index: 4;
+            width: 800px;
+            height: 600px;
+            top: 220px;
+            left: 190px;
+            position : absolute;
+
+        }
+        .p3_img4{
+            z-index: 4;
+            width: 800px;
+            height: 600px;
+            top: 480px;
+            left: 190px;
+            position : absolute;
+        }
+        .p3_img2{
+            left: 625px;
+        }
+        .p3_img3{
+            left: 1060px;
+        }
+        .p4_img1{
+            z-index: 4;
+            width: 800px;
+            height: 600px;
+            top: 180px;
+            left: 190px;
+            position : absolute;
+
+        }
+        .p4_img2{
+            z-index: 4;
+            width: 800px;
+            height: 600px;
+            top: 180px;
+            left: 880px;
+            position : absolute;
+
+        }
+        .p4_img3{
+            z-index: 5;
+            width: 800px;
+            height: 600px;
+            top: 280px;
+            left: 500px;
+            position : absolute;
+
+        }
+        .p4_img4{
+            z-index: 4;
+            width: 800px;
+            height: 600px;
+            top: 500px;
+            left: 240px;
+            position : absolute;
+
+        }
+        .p4_img5{
+            z-index: 4;
+            width: 800px;
+            height: 600px;
+            top: 520px;
+            left: 880px;
+            position : absolute;
+
+        }
+
+        .endth{
+            z-index: 4;
+            font-size: 120px;
+            top: 200px;
+            left: 210px;
+            position: absolute;
+        }
+        .endth2{
+            z-index: 4;
+            font-size: 32px;
+            top: 450px;
+            left: 295px;
+            position: absolute;
+        }
+        .endimg{
+            z-index: 4;
+            width:550px;
+            height: 513.6px;
+            top: 200px;
+            left: 920px;
+            border: 3px solid black;
+            position: absolute;
+        }
+        
+
+
+    </style>
+</head>
+<body>
+    <div class="background">
+        <p class="chrkseks black-han-sans-regular">초간단</p>
+        <p class="wkrlthro black-han-sans-regular">자기소개</p>
+        <div class="middle"></div>
+        <div class="middle_s"></div>
+        <div class="middle_t"></div>
+        <div class="main_one"></div>
+        <div class="down_b">
+            <p class="myname_01 black-han-sans-regular">노  현 주 (Noh Hyun Ju)</p>
+        </div>
+        <div class="down_up_l">
+            <p class="main_l">Pressentation</p>
+            </div>
+        <div class="down_up_r">
+            <p class="main_r">2045 - 2050</p>
+        </div>
+        <div class="circle">
+            <p class="eye">. .</p>
+            <div class="mouth"></div>
+        </div>
+        
+        
+        
+        <div class="m1"></div>
+        <div class="m2"></div>
+        
+        <div class="spring">
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <div class="spring2">
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+            
+
+        <div class="background2"></div>
+        <div class="page2 middle"></div>
+        <div class="page2_ms middle_s"></div>
+        <div class="page2_mt middle_t"></div>
+        <div class="main_one2 main_one"></div>
+        <div class="m1_1 m1"></div>
+        <div class="m2_1 m2"></div>
+        <div class="spring_2 spring">
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <div class="spring_2 spring2">
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <div class="down_up_r2 down_up_l">
+            <p class="main_l">Pressentation</p>
+            </div>
+        <div class="down_up_r2 down_up_r">
+            <p class="main_r">2045 - 2050</p>
+        </div>
+        <p class = "cont do-hyeon-regular"><strong>목차</strong></p>
+        <div class="line_02"></div>
+        <div class="down_b02 down_b">
+            <div class="circle circle_02">
+                <p class="num_02 do-hyeon-regular">3</p>
+            </div>
+            <p class="nu_02 do-hyeon-regular">인사</p>
+        </div>
+        <div class="down_b022 down_b">
+            <div class="circle circle_02">
+                <p class="num_02 do-hyeon-regular">2</p>
+            </div>
+            <p class="nu_02 do-hyeon-regular">무엇을 하고 살았나요?</p>
+        </div>
+        <div class="down_b023 down_b">
+            <div class="circle circle_02">
+                <p class="num_02 do-hyeon-regular">1</p>
+            </div>
+            <p class="nu_02 do-hyeon-regular">나는 어떤 사람인가요?</p>
+        </div>
+
+        <div class="background3">
+            <div class="middle"></div>
+            <div class="middle_s"></div> 
+            <div class="middle_t"></div>
+            <div class="down_up_l">
+                <p class="main_l">Pressentation</p>
+            </div>
+            
+            <div class="down_up_r">
+                <p class="main_r">2045 - 2050</p>
+            </div>
+            <div class="line_03"></div>
+            <div class="m3"></div>
+            <div class="spring03">
+                <div class="bar2"></div>
+            </div>
+            <div class="bar2_location spring03">
+                <div class="bar2"></div>
+            </div>
+            <div class="down_b03 down_b">
+                <div class="circle_03 circle">
+                    <p class="eye_3 eye">. .</p>
+                    <p class="mouth03 mouth"></p>
+                    
+                </div>
+                
+                <p class="myname3 nu_02 do-hyeon-regular space">       게임을 좋아하는 개발자~!!</p>
+            </div>
+            <p class="whoiam black-han-sans-regular">나는 누구인가요?</p>
+            <div class="l03_r line_03"></div>
+            <p class="p3_1 space  black-han-sans-regular">
+                프로필
+                        
+
+
+
+
+                취미
+
+
+
+
+
+                TMI
+            </p>
+            <p class="p3_2 space  hahmlet">
+            <strong>성 명 </strong>                  노 현주
+            </p>
+            <p class="p3_22 p3_2 space  hahmlet">
+            <strong>학 과 </strong>                  빅데이터과(컴퓨터공학과)
+            </p>
+            <p class="p3_23 p3_2 space  hahmlet">
+            <strong>나 이 </strong>                  25세 (만 24세. 02년생)
+            </p>
+            <p class="p3_24 p3_2 space  hahmlet">
+            <strong>MBTI</strong>               E N T J
+            </p>
+            <p class="p3_31 p3_2 space  hahmlet">
+                                      게임하기
+            </p>
+            <p class="p3_32 p3_2 space  hahmlet">
+                                      운동하기
+            </p> 
+            <p class="p3_33 p3_2 space  hahmlet">
+                                      유튜브 보고 요리하기
+            </p> 
+            <p class="p3_41 p3_2 space  hahmlet">
+            <strong>TMI 1</strong>             시력이 좋지 않아요
+            </p>
+            <p class="p3_42 p3_2 space  hahmlet">
+            <strong>TMI 2</strong>             남양주에서 왔어요
+            </p>
+            <p class="p3_43 p3_2 space  hahmlet">
+            <strong>TMI 3</strong>             구석진 곳을 좋아해요
+            </p>
+        </div>
+        <div class="background4">
+            <div class="middle"></div>
+            <div class="middle_s"></div> 
+            <div class="middle_t"></div>
+            <div class="down_up_l">
+                <p class="main_l">Pressentation</p>
+            </div>
+            <div class="spring">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            </div>
+            <div class="spring2">
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <div class="main_one"></div>
+            <div class="m1"></div>
+            <div class="m2"></div>
+            <div class="down_up_r">
+                <p class="main_r">2045 - 2050</p>
+            </div>
+            <p class="main04 do-hyeon-regular">무엇을 하고 살았나요?</p>
+            <div class="bar_04 down_b">
+                <div class="circle_03 circle "> <p class="circle_04_text">1</p></div>
+                
+                <p class="bar_04_text do-hyeon-regular space">유튜브 뒷광고 논란
+논문작성</p>
+            </div>
+            <div class="bar_042 bar_04 down_b">
+                <div class="circle_03 circle "> <p class="circle_04_text">2</p></div>
+                
+                <p class="bar_04_text do-hyeon-regular space">언리얼엔진 메타버스
+교육
+            </div>
+            <div class="bar_043 bar_04 down_b">
+                <div class="circle_03 circle "> <p class="circle_04_text">3</p></div>
+                
+                <p class="bar_04_text1 do-hyeon-regular space">공포 영상 제작
+            </div>
+            <div class="bar_044 bar_04 down_b">
+                <div class="circle_03 circle "> <p class="circle_04_text">4</p></div>
+                
+                <p class="bar_04_text1 do-hyeon-regular space">게임 제작</p>
+            </div>
+            <div class="p4_b1 line_02 "></div>
+            <p class="p4_1 space"><strong>정치행정학과 졸업 과제</strong>                    논문연설문작성법 수업 수강</p>
+            <p class="p4_2 p4_1 space"><strong>Unreal Engine,  </strong>                           
+<strong>Blender,
+Zbrush, marvelous</strong>                  
+            </p>
+            <p class="p4_3 p4_1"><strong>Unreal Engine5, 모션 그래픽</strong> </p>
+            <p class="p4_4 p4_1 space"><strong>공포 연애 시뮬레이션 제작</strong>              언리얼엔진으로 공포 연애 시뮬레이션 게임을 제작
+            </p>
+            <p class="p4_2_1 p4_1">게임 툴과 다양하 디자인 툴을 학습하여 프로젝트를 진행</p>
+            <p class="p4_2_2 p4_1 space">언리얼엔진과 Rokoko 장비를 활용하여 영상제작
+https://cactus-lentil-
+fd4.notion.site/125b8cb16bc180d5bc58fa436537b3c2
+            </p>
+            <div class="arrow"></div>
+            <div class="arrow2 arrow"></div>
+            <div class="arrow3 arrow"></div>
+            <div class="arrow4 arrow"></div>
+            <div class="arrow_"></div>
+        </div>
+        <div class="background5">
+            <div class="middle"></div>
+            <div class="middle_s"></div> 
+            <div class="middle_t"></div>
+            <div class="down_up_l">
+                <p class="main_l">Pressentation</p>
+            </div>
+            <div class="spring">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            </div>
+            <div class="spring2">
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <div class="main_one"></div>
+            <div class="m1"></div>
+            <div class="m2"></div>
+            <div class="down_up_r">
+                <p class="main_r">2045 - 2050</p>
+            </div>
+            <div class="img1"><img src="css_img/01.jpg" width="1100px"></div>
+        </div>
+        <div class="background6">
+            <div class="middle"></div>
+            <div class="middle_s"></div> 
+            <div class="middle_t"></div>
+            <div class="down_up_l">
+                <p class="main_l">Pressentation</p>
+            </div>
+            <div class="spring">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            </div>
+            <div class="spring2">
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <div class="main_one"></div>
+            <div class="m1"></div>
+            <div class="m2"></div>
+            <div class="down_up_r">
+                <p class="main_r">2045 - 2050</p>
+            </div>
+            <div class="p2_img1"><img src="css_img/p21.png" width="550px" height="250px"></div>
+            <div class="p2_img2"><img src="css_img/p22.png" width="550px" height="250px"></div>
+            <div class="p2_img3"><img src="css_img/p23.png" width="550px" height="250px"></div>
+            <div class="p2_img4"><img src="css_img/p24.png" width="550px" height="250px"></div>
+
+        </div>
+        <div class="background7">
+            <div class="middle"></div>
+            <div class="middle_s"></div> 
+            <div class="middle_t"></div>
+            <div class="down_up_l">
+                <p class="main_l">Pressentation</p>
+            </div>
+            <div class="spring">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            </div>
+            <div class="spring2">
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <div class="main_one"></div>
+            <div class="m1"></div>
+            <div class="m2"></div>
+            <div class="down_up_r">
+                <p class="main_r">2045 - 2050</p>
+            </div>
+            <div class="p3_img1"><img src="css_img/s1.png" width="380px" height="200px"></div>
+            <div class="p3_img2 p3_img1"><img src="css_img/s2.png"width="380px" height="200px"></div>
+            <div class="p3_img3 p3_img1"><img src="css_img/s3.png" width="380px" height="200px"></div>
+            <div class="p3_img4"><img src="css_img/s4.png" width="380px" height="200px"></div>
+            <div class="p3_img2 p3_img4"><img src="css_img/s5.png" width="380px" height="200px"></div>
+            <div class="p3_img3 p3_img4"><img src="css_img/s6.png" width="380px" height="200px"></div>
+
+        </div>
+
+        <div class="background8">
+            <div class="middle"></div>
+            <div class="middle_s"></div> 
+            <div class="middle_t"></div>
+            <div class="down_up_l">
+                <p class="main_l">Pressentation</p>
+            </div>
+            <div class="spring">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            </div>
+            <div class="spring2">
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <div class="main_one"></div>
+            <div class="m1"></div>
+            <div class="m2"></div>
+            <div class="down_up_r">
+                <p class="main_r">2045 - 2050</p>
+            </div>
+            <div class="p4_img1"><img src="css_img/p3_1.png" width="500px" height="250px"></div>
+            <div class="p4_img2"><img src="css_img/p3_2.png" width="500px" height="240px"></div>
+            <div class="p4_img3"><img src="css_img/p3_3.png" width="540px" height="290px"></div>
+            <div class="p4_img4"><img src="css_img/p3_4.png" width="540px" height="250px"></div>
+            <div class="p4_img5"><img src="css_img/p3_5.png" width="500px" height="240px"></div>
+        </div>
+        <div class="background9">
+            <div class="middle"></div>
+            <div class="middle_s"></div> 
+            <div class="middle_t"></div>
+            <div class="down_up_l">
+                <p class="main_l">Pressentation</p>
+            </div>
+            <div class="spring">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            </div>
+            <div class="spring2">
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <div class="main_one"></div>
+            <div class="m1"></div>
+            <div class="m2"></div>
+            <div class="down_up_r">
+                <p class="main_r">2045 - 2050</p>
+            </div>
+            <p class="endth quicksand"><strong>thank you!</strong></p>
+            <p class="endth2 hahmlet">발표를 들어주셔서 감사합니다.</p>
+            <div class="endimg"><img src="css_img/end.png" width="550px" ></div>
+        </div>
+
+    </div>
+</body>
+</html>
